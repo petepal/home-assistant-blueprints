@@ -60,8 +60,8 @@ condition:
 
 action:
   - delay:
-      hours: 0
-      minutes: 1
+      hours: 1
+      minutes: 0
       seconds: 0
       milliseconds: 0
   - service: number.set_value
